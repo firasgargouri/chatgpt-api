@@ -1,0 +1,20 @@
+{
+  "name": "terminal",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "firas gargouri",
+  "license": "ISC",
+  "dependencies": {
+    "ai": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "open": "^8.4.0",
+    "openai": "^3.1.0"
+  }
+}

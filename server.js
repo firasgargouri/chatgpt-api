@@ -14,6 +14,6 @@ const Configuration = new Configuration({
 const app = express()
 
 const openai = new OpenAIApi(Configuration)
-app.use
+app.use(cors())
 
 app.listen(5000,console.log('connected on port 5000'))
